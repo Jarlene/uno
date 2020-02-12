@@ -332,6 +332,7 @@ namespace SamplesApp.UITests.Windows_UI_Xaml_Controls.ButtonTests
 			toggleSwitch02.Tap();
 			verifyTextBlockText("ToggleSwitch toggleSwitch02 Toggled False (2)", "No value", "No command");
 		}
+
 		private void verifyTextBlockText(string text1, string text2, string text3)
 		{
 			var result = _app.Marked("result");
